@@ -1,0 +1,37 @@
+@media (max-width : 1200px){
+    #container div {
+        flex: 0 0 30%;
+    }
+    input {
+        flex: 0 0 48%;
+    }
+    #random{
+        
+        width: 30%;
+        
+    }
+}
+@media (max-width : 900px){
+    #container div {
+        flex: 0 0 48%;
+    }
+    #random{
+        width:48%;
+    }
+    input {
+        flex: 0 0 48%;
+        margin-top: 15px;
+    }
+}
+@media (max-width : 768px){
+    #container div {
+        flex: 0 0 100%;
+    }
+    #random{
+        width: 100%;
+    }
+    input{
+        flex: 0 0 100%;
+        margin-top: 15px;
+    }
+}
